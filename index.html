@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donar Finder</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    
+    <div class="navbar-container">
+        <div class="nav-text">
+            <h3>Blood Donars</h3>
+        </div>
+        <div class="nav-links">
+            <a href="#Home-page">Home</a>
+            <a href="#donar-finder">Find Donars</a>
+            <a href="#Contact-us">Contact us</a>
+        </div>
+    </div>
+
+    <section id="Home-page">
+
+        <div class="home-container">
+
+            <div class="home-text-container">
+                <div class="home-headings">
+                    <h1>Transform Healthcare Experience 
+                        for You
+                    </h1>
+                </div>
+
+                <div class="home-desc">
+                    <h2>What we Provide</h2>
+                    <p>Welcome to Blood Donars , we find blood donars online using ai
+                        . It makes the work of patient easy in emergency. Now patient
+                        can find the blood donars online within minutes. Even the rarest 
+                        blood can be found easily
+                    </p>
+                    <button>Contact Now</button>
+                </div>
+                
+            </div>
+            <div class="home-img-container">
+                <img src="blood.jpg" alt="img">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="donar-finder">
+        <div class="finder-container">
+            <h1>Donars near me </h1>
+            <form action="#">
+                <table border="1">
+                    <th>Select Blood group</th>
+                    <th>Select Location</th>
+                    <tr>
+                        <td>
+                            <select name="select" id="">
+                                <option value="">A+ve</option>
+                                <option value="">B+ve</option>
+                                <option value="">AB+ve</option>
+                                <option value="">A-ve</option>
+                                <option value="">AB-ve</option>
+                                <option value="">B-ve</option>
+                                <option value="">O+ve</option>
+                                <option value="">O-ve</option>
+                                <option value="">RH</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="select" id="">
+                                <option value="">Bangalore</option>
+                                <option value="">pune</option>
+                                <option value="">Kolkata</option>
+                                <option value="">Meruth</option>
+                                <option value="">Delhi</option>
+                                <option value="">Surat</option>
+                                <option value="">Chennai</option>
+                                <option value="">Hyderabad</option>
+                                <option value="">Patna</option>
+                            </select>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </form>
+
+            <div class="map-conatiner">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d248737.95168562751!2d77.48379059187863!3d13.06552989915602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sManipal%20Hospital!5e0!3m2!1sen!2sin!4v1742714271192!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact-us">
+        <div class="contact-conatiner">
+            <h1>Contact us </h1>
+            <form action="#">
+                <table>
+                    <tr>
+                        <td>Enter Name :</td>
+                        <td> 
+                            <input type="text"/>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Enter Email :</td>
+                        <td> 
+                            <input type="email"/>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Enter Phone Number :</td>
+                        <td> 
+                            <input type="tel"/>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td><button>Submit</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
